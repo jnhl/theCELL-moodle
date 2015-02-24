@@ -400,7 +400,7 @@ $CFG->admin = 'admin';
 // want to have initial error messages for eventual database connection problems
 // localized too, you have to set your language code here.
 //
-//     $CFG->lang = 'yourlangcode'; // for example 'cs'
+     $CFG->lang = 'sv'; // for example 'cs'
 //
 // When Moodle is about to perform an intensive operation it raises PHP's memory
 // limit. The following setting should be used on large sites to set the raised
