@@ -47,8 +47,8 @@
   array (
     0 => 
     array (
-      'mode' => 1,
-      'store' => 'default_application',
+      'mode' => 4,
+      'store' => 'default_request',
       'sort' => -1,
     ),
     1 => 
@@ -59,8 +59,8 @@
     ),
     2 => 
     array (
-      'mode' => 4,
-      'store' => 'default_request',
+      'mode' => 1,
+      'store' => 'default_application',
       'sort' => -1,
     ),
   ),
@@ -346,6 +346,37 @@
       'staticaccelerationsize' => 30,
       'component' => 'mod_glossary',
       'area' => 'concepts',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'block_progress/cachedlogs' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'invalidationevents' => 
+      array (
+        0 => 'changesincourse',
+      ),
+      'component' => 'block_progress',
+      'area' => 'cachedlogs',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'block_search/main' => 
+    array (
+      'mode' => 1,
+      'component' => 'block_search',
+      'area' => 'main',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'block_search/user_searches' => 
+    array (
+      'mode' => 2,
+      'component' => 'block_search',
+      'area' => 'user_searches',
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),

@@ -1,0 +1,14 @@
+a:22:{s:22:"assignment:addinstance";s:42:"Lägg till en ny inlämningsuppgiftuppgift";s:30:"assignment:exportownsubmission";s:32:"Exportera egna inskickade bidrag";s:27:"assignment:exportsubmission";s:27:"Exportera inskickade bidrag";s:16:"assignment:grade";s:19:"Betygssätt uppgift";s:17:"assignment:submit";s:17:"Skicka in uppgift";s:15:"assignment:view";s:12:"Visa uppgift";s:22:"assignmentneedsupgrade";s:173:"The legacy "Assignment 2.2" activity has been disabled. Please request that your site administrator runs the assignment upgrade tool for all legacy assignments in this site.";s:34:"messageprovider:assignment_updates";s:25:"Anteckningar om uppgifter";s:18:"assignmentdisabled";s:49:"The legacy "Assignment 2.2" activity is disabled.";s:10:"modulename";s:13:"Uppgift (2.2)";s:15:"modulename_help";s:534:"<p><img src="<?php echo $CFG->wwwroot?>/mod/assignment/icon.gif" alt="" />&nbsp;<b>Uppgifter</b></p>
+<ul>
+<li>Uppgifter till&aring;ter distansl&auml;raren att formulera en uppgift som
+inneb&auml;r att de l&auml;rande ska g&ouml;ra iordning digitalt inneh&aring;ll
+(i valfritt format) och skicka in det till servern.</li>
+</ul>
+<ul>
+<li>Ess&auml;er, projekt, rapporter
+osv. &auml;r exempel p&aring; typiska uppgifter.</li>
+</ul>
+<ul>
+<li>Den h&auml;r modulen till&aring;ter
+bed&ouml;mning/v&auml;rdering/betygss&auml;ttning.</li>
+</ul>";s:16:"modulenameplural";s:9:"Uppgifter";s:21:"page-mod-assignment-x";s:23:"Varje uppgiftsmodulsida";s:24:"page-mod-assignment-view";s:26:"Uppgiftsmodulens huvudsida";s:31:"page-mod-assignment-submissions";s:32:"Uppgiftsmodulens inlämningssida";s:10:"pluginname";s:13:"Uppgift (2.2)";s:19:"upgradenotification";s:56:"Denna aktivitet är baserad på en äldre uppgiftsmodul.";s:25:"viewassignmentupgradetool";s:32:"Se uppgiftuppgraderingsverktyget";s:29:"pendingupgrades_message_small";s:137:"This plugin has been disabled. All remaining assignments must be upgraded to the new assignment module using the assignment upgrade tool.";s:31:"pendingupgrades_message_subject";s:46:"Important information regarding Assignment 2.2";s:31:"pendingupgrades_message_content";s:528:"As part of the upgrade to Moodle 2.7, the legacy Assignment 2.2 activity has been disabled. Backups from the legacy Assignment 2.2 activity will seamlessly restore to the newer Assignment activity. All remaining instances of the legacy Assignment 2.2 activity must be upgraded using the assignment upgrade tool {$a->docsurl}. There are {$a->count} instances of the legacy Assignment 2.2 activity on this site that require upgrading. Users will not be able to access the content of these activities until they have been upgraded.";s:20:"pluginadministration";s:25:"Administration av uppgift";}

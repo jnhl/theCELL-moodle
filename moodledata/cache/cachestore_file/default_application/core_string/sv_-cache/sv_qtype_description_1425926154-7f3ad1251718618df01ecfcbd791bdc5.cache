@@ -1,0 +1,3 @@
+a:6:{s:15:"informationtext";s:16:"Informationstext";s:10:"pluginname";s:11:"Beskrivning";s:15:"pluginname_help";s:275:"En beskrivning är inte någon egentlig frågetyp. Den låter dig helt enkelt visa text utan att kräva något svar, likt en etikett på en kurssida.
+
+Frågetexten visas både under försöket och på granskningssidan. Generell återkoppling visas endast på granskningsidan.";s:16:"pluginnameadding";s:27:"Lägger till en beskrivning";s:17:"pluginnameediting";s:20:"Redigera beskrivning";s:17:"pluginnamesummary";s:250:"Detta är egentligen inte en fråga. Istället är det ett sätt att lägga till några instruktioner, rubriker eller annat innehåll till aktiviteten. Detta liknar det sätt som etiketter kan användas för att lägga till innehåll på en kurssida.";}

@@ -1,0 +1,219 @@
+/**
+ * Folder View Course Format
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see http://opensource.org/licenses/gpl-3.0.html.
+ *
+ * @copyright Copyright (c) 2009 Moodlerooms Inc. (http://www.moodlerooms.com)
+ * @license http://opensource.org/licenses/gpl-3.0.html GNU Public License
+ * @package format_folderview
+ * @author David Mills
+ * @author Mark Nielsen
+ */
+
+.course-content ul.folderview {margin:0;}
+.course-content ul.folderview li.section {list-style: none;margin:5px 0 0 0;padding:0;}
+.course-content ul.folderview li.section .content {margin:0 40px;}
+.course-content ul.folderview li.section .left {width:40px;float:left;text-align:center;}
+.course-content ul.folderview li.section .right {width:40px;float:right;text-align:center;}
+
+/* Section expand/collapse toggle */
+.course-content ul.folderview .expanded img.folder_icon {
+    background-image: url([[pix:format_folderview|folder_open]]);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.course-content ul.folderview img.folder_icon {
+    background-image: url([[pix:format_folderview|folder]]);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+/* Section expanded/collapsed */
+.jsenabled .course-content ul.folderview li.section .summary,
+.jsenabled .course-content ul.folderview li.section ul.section li.activity {
+    display: none;
+}
+
+.course-content ul.folderview li.section.expanded ul.section li.activity,
+.course-content ul.folderview li.section.expanded .summary,
+.course-content .single-section ul.folderview li.section .summary,
+.course-content .single-section ul.folderview li.section ul.section li.activity,
+.course-content ul.folderview li.section.orphaned .summary,
+.course-content ul.folderview li.section.orphaned ul.section li.activity,
+.course-content ul.folderview #section-0 .summary,
+.course-content ul.folderview #section-0 ul.section li.activity {
+    display: block;
+}
+
+/* Section title */
+#page-course-view-folderview .content h3:first-child {
+    margin: 6px;
+}
+
+/* Expand/Collapse all section switches */
+#page-course-view-folderview #topiclinktop {
+    float: right;
+}
+
+/* Hide standard elements not used by folderview */
+#page-course-view-folderview .course-content #changenumsections,
+.course-content .single-section ul.folderview .right .icon.edit,
+.course-content ul.folderview #section-0 .sectionname,
+.course-content ul.folderview li.section .left br,
+.course-content ul.folderview li.section .right br,
+.course-content ul.folderview .summary img.edit,
+.course-content ul.folderview .addresourcemodchooser {
+    display: none;
+}
+
+/* Add dialog css */
+#page-course-view-folderview #addBlock .column {
+    float: left;
+    min-width: 15%;
+    max-width: 33%;
+}
+
+#page-course-view-folderview #addBlock .column a {
+    display: block;
+    padding: 0.25em 20px 0.25em 0;
+}
+
+#page-course-view-folderview #menuPanelClose {
+    float: right;
+}
+
+#page-course-view-folderview .rescat {
+    float: left;
+    padding: 0.25em;
+    margin: 0.25em;
+    border-style: none;
+    min-width: 34%;
+}
+
+#page-course-view-folderview .rescat .rescatlegend {
+    font-weight: bold;
+}
+
+/* Section edit widgets */
+.course-content .multi-section ul.folderview li.section .right.side {
+    float: right;
+    width: auto;
+    padding-right: 5px;
+}
+
+.course-content .multi-section ul.folderview li.section .right.side a,
+.course-content .multi-section ul.folderview li.section .right.side img {
+    display: inline-block;
+    float: right;
+    padding-right: 4px;
+    padding-top: 1px;
+}
+
+/* Drag-n-drop Section Handle CSS */
+.editing.jsenabled .course-content ul.folderview li.section .left a {
+    float: right;
+}
+.editing.jsenabled .course-content ul.folderview li.section .left span {
+    margin-top: 6px;
+    display: block;
+}
+
+.editing.jsenabled .course-content ul.folderview li.section .left {
+    width: 70px;
+    max-width: 70px;
+}
+
+/* Single section view, the view all icon in the top */
+#page-course-view-folderview .single-section .topiclistlink {
+    float: right;
+    padding: 0.5em 0.5em 0;
+}
+
+/* All tab/panel CSS */
+#page-course-view-folderview #menuPanelClose { display:block; text-align:right; }
+#page-course-view-folderview #menuPanelDialog { border:1px solid; padding:10px; }
+#page-course-view-folderview .menuPanelTabs { margin-bottom:-1px; }
+#page-course-view-folderview .menuPanelTabs .tab { border-bottom:1px solid; padding: 3px 6px; }
+#page-course-view-folderview .nodialog .menuPanelTabs .tab { border:0 none; }
+#page-course-view-folderview .nodialog #menuPanelClose { display:none; }
+#page-course-view-folderview .nodialog #menuPanelDialog { border:0 none;padding:0;margin:0;-moz-border-radius:none; -webkit-border-radius:none; border-radius:0;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; }
+#page-course-view-folderview .dlg_addResource #addResource { display:block; min-height:1em; }
+#page-course-view-folderview #addResource .column { float:left; padding-right:1em; }
+#page-course-view-folderview #addResource .column .restype { padding:1px 0; }
+#page-course-view-folderview #divAddToSection { clear:both; margin-top:1em; }
+#page-course-view-folderview .dlg_addActivity #addActivity { display:block; }
+#page-course-view-folderview .dlg_addBlock #addBlock { display:block; }
+#page-course-view-folderview .dlg_addTopic #addTopic { display:block; }
+#page-course-view-folderview .dlg_editLayout #editLayout { display:block; }
+#page-course-view-folderview .dlg_addActivity #tab_addActivity,
+#page-course-view-folderview .dlg_addBlock #tab_addBlock,
+#page-course-view-folderview .dlg_addTopic #tab_addTopic,
+#page-course-view-folderview .dlg_addResource #tab_addResource,
+#page-course-view-folderview .dlg_editLayout #tab_editLayout { border:1px solid; border-bottom-color:white;  }
+#page-course-view-folderview .menuPanelTabs .tab { display:inline-block; }
+#page-course-view-folderview .dialog { padding:0 1em 1em; margin:1em 0; }
+#page-course-view-folderview .dialog { display: block; }
+#page-course-view-folderview.jsenabled .dialog { display: none; }
+#page-course-view-folderview #addBlock { display: none; }
+
+/* Show dialog labels (AKA headings) */
+#page-course-view-folderview #menuPanelDialog .dialoglabel {
+    display: block;
+}
+
+/* Access hide dialog labels (AKA headings) when JS is enabled */
+#page-course-view-folderview.jsenabled #menuPanelDialog .dialoglabel {
+    position: absolute;
+    left: -10000px;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+/* Hide these based on JS */
+#page-course-view-folderview.jsenabled #addResource #addResourceButton,
+#page-course-view-folderview #tab_addTopic,
+#page-course-view-folderview #tab_addResource,
+#page-course-view-folderview #tab_addBlock {
+    display: none;
+}
+
+/* Show these based on JS */
+#page-course-view-folderview.jsenabled #tab_addTopic,
+#page-course-view-folderview.jsenabled #tab_addResource,
+#page-course-view-folderview.jsenabled #tab_addBlock {
+    display: inline-block;
+}
+
+/* When no JS, show the radio button and hide the link */
+#page-course-view-folderview #addResource .addreslink {
+    display: none;
+}
+
+#page-course-view-folderview #addResource .addresradio {
+    display: block;
+}
+
+/* When JS enabled, show the link and hide the radio button */
+#page-course-view-folderview.jsenabled #addResource .addreslink {
+    display: block;
+}
+
+#page-course-view-folderview.jsenabled #addResource .addresradio {
+    display: none;
+}
+
+.format-folderview .block_settings .block_tree .tree_item.modchoosertoggle {display:none;}

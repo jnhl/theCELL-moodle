@@ -71,13 +71,13 @@ class login_signup_form extends moodleform {
             $mform->addRule($field, get_string($stringid), 'required', null, 'server');
         }
 
-        $mform->addElement('text', 'city', get_string('city'), 'maxlength="120" size="20"');
+        /*$mform->addElement('text', 'city', get_string('city'), 'maxlength="120" size="20"');
         $mform->setType('city', PARAM_TEXT);
         if (!empty($CFG->defaultcity)) {
             $mform->setDefault('city', $CFG->defaultcity);
-        }
+        }*/ //REMOVED CITY
 
-        $country = get_string_manager()->get_list_of_countries();
+        /*$country = get_string_manager()->get_list_of_countries();
         $default_country[''] = get_string('selectacountry');
         $country = array_merge($default_country, $country);
         $mform->addElement('select', 'country', get_string('country'), $country);
@@ -86,7 +86,7 @@ class login_signup_form extends moodleform {
             $mform->setDefault('country', $CFG->country);
         }else{
             $mform->setDefault('country', '');
-        }
+        }*/ //REMOVED COUNTRY
 
         if ($this->signup_captcha_enabled()) {
             $mform->addElement('recaptcha', 'recaptcha_element', get_string('recaptcha', 'auth'), array('https' => $CFG->loginhttps));

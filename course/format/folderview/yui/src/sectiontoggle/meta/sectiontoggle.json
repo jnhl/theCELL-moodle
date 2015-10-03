@@ -1,0 +1,10 @@
+{
+    "moodle-format_folderview-sectiontoggle": {
+        "requires": [
+            "base",
+            "event",
+            "io",
+            "moodle-local_mr-livelog"
+        ]
+    }
+}

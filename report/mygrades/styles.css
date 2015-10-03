@@ -1,0 +1,258 @@
+
+/*
+ * Table
+ */
+.path-report-mygrades table.dataTable {
+	margin: 0 auto;
+	clear: both;
+	width: 100%;
+}
+
+.path-report-mygrades table.dataTable thead th {
+	padding: 3px 18px 3px 10px;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	cursor: pointer;
+	*cursor: hand;
+}
+
+.path-report-mygrades table.dataTable tfoot th {
+	padding: 3px 18px 3px 10px;
+	border-top: 1px solid black;
+	font-weight: bold;
+}
+
+.path-report-mygrades table.dataTable td {
+	padding: 3px 10px;
+}
+
+.path-report-mygrades table.dataTable td.center,
+.path-report-mygrades table.dataTable td.dataTables_empty {
+	text-align: center;
+}
+
+.path-report-mygrades table.dataTable tr.odd { background-color: #E2E4FF; }
+.path-report-mygrades table.dataTable tr.even { background-color: white; }
+
+.path-report-mygrades table.dataTable tr.odd td.sorting_1 { background-color: #D3D6FF; }
+.path-report-mygrades table.dataTable tr.odd td.sorting_2 { background-color: #DADCFF; }
+.path-report-mygrades table.dataTable tr.odd td.sorting_3 { background-color: #E0E2FF; }
+.path-report-mygrades table.dataTable tr.even td.sorting_1 { background-color: #EAEBFF; }
+.path-report-mygrades table.dataTable tr.even td.sorting_2 { background-color: #F2F3FF; }
+.path-report-mygrades table.dataTable tr.even td.sorting_3 { background-color: #F9F9FF; }
+
+
+/*
+ * Table wrapper
+ */
+.path-report-mygrades .dataTables_wrapper {
+	position: relative;
+	clear: both;
+	*zoom: 1;
+}
+
+
+/*
+ * Page length menu
+ */
+.path-report-mygrades .dataTables_length {
+	float: left;
+}
+
+
+/*
+ * Filter
+ */
+.path-report-mygrades .dataTables_filter {
+	float: right;
+	text-align: right;
+}
+
+
+/*
+ * Table information
+ */
+.path-report-mygrades .dataTables_info {
+	clear: both;
+	float: left;
+}
+
+
+/*
+ * Pagination
+ */
+.path-report-mygrades .dataTables_paginate {
+	float: right;
+	text-align: right;
+}
+
+/* Two button pagination - previous / next */
+.path-report-mygrades .paginate_disabled_previous,
+.path-report-mygrades .paginate_enabled_previous,
+.path-report-mygrades .paginate_disabled_next,
+.path-report-mygrades .paginate_enabled_next {
+	height: 19px;
+	float: left;
+	cursor: pointer;
+	*cursor: hand;
+	color: #111 !important;
+}
+.path-report-mygrades .paginate_disabled_previous:hover,
+.path-report-mygrades .paginate_enabled_previous:hover,
+.path-report-mygrades .paginate_disabled_next:hover,
+.path-report-mygrades .paginate_enabled_next:hover {
+	text-decoration: none !important;
+}
+.path-report-mygrades .paginate_disabled_previous:active,
+.path-report-mygrades .paginate_enabled_previous:active,
+.path-report-mygrades .paginate_disabled_next:active,
+.path-report-mygrades .paginate_enabled_next:active {
+	outline: none;
+}
+
+.path-report-mygrades .paginate_disabled_previous,
+.path-report-mygrades .paginate_disabled_next {
+	color: #666 !important;
+}
+.path-report-mygrades .paginate_disabled_previous,
+.path-report-mygrades .paginate_enabled_previous {
+	padding-left: 23px;
+}
+.path-report-mygrades .paginate_disabled_next,
+.path-report-mygrades .paginate_enabled_next {
+	padding-right: 23px;
+	margin-left: 10px;
+}
+
+/* Full number pagination */
+.path-report-mygrades .paging_full_numbers {
+	height: 22px;
+	line-height: 22px;
+}
+.path-report-mygrades .paging_full_numbers a:active {
+	outline: none
+}
+.path-report-mygrades .paging_full_numbers a:hover {
+	text-decoration: none;
+}
+
+.path-report-mygrades .paging_full_numbers a.paginate_button,
+.path-report-mygrades .paging_full_numbers a.paginate_active {
+	border: 1px solid #aaa;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px 5px;
+	margin: 0 3px;
+	cursor: pointer;
+	*cursor: hand;
+	color: #333 !important;
+}
+
+.path-report-mygrades .paging_full_numbers a.paginate_button {
+	background-color: #ddd;
+}
+
+.path-report-mygrades .paging_full_numbers a.paginate_button:hover {
+	background-color: #ccc;
+	text-decoration: none !important;
+}
+
+.path-report-mygrades .paging_full_numbers a.paginate_active {
+	background-color: #99B3FF;
+}
+
+
+/*
+ * Processing indicator
+ */
+.path-report-mygrades .dataTables_processing {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 30px;
+	margin-left: -125px;
+	margin-top: -15px;
+	padding: 14px 0 2px 0;
+	border: 1px solid #ddd;
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	background-color: white;
+}
+
+
+/*
+ * Sorting
+ */
+.path-report-mygrades .sorting { background-image:url([[pix:moodle|t/sort]]) !important; background-position: center right !important; background-repeat: no-repeat !important; }
+.path-report-mygrades .sorting_asc { background-image:url([[pix:moodle|t/sort_asc]]) !important;background-position: center right !important; background-repeat: no-repeat !important; }
+.path-report-mygrades .sorting_desc { background-image:url([[pix:moodle|t/sort_desc]]) !important; background-position: center right !important; background-repeat: no-repeat !important; }
+ 
+.path-report-mygrades table.dataTable thead th:active,
+.path-report-mygrades table.dataTable thead td:active {
+	outline: none;
+}
+
+
+/*
+ * Scrolling
+ */
+.path-report-mygrades .dataTables_scroll {
+	clear: both;
+}
+
+.path-report-mygrades .dataTables_scrollBody {
+	*margin-top: -1px;
+	-webkit-overflow-scrolling: touch;
+}
+
+.path-report-mygrades table.grades {
+	color:#666;
+	font-size:12px;
+	background:#eaebec;
+	width: 100%;
+	border:#ccc 1px solid;
+}
+
+.path-report-mygrades table.grades th {
+	padding:8px 10px 8px 10px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+	background: #ededed;
+}
+
+.path-report-mygrades table.grades th:first-child {
+	text-align: center;
+	padding-left:10px;
+	width: 80%;
+	border-right: 1px solid #e0e0e0;
+}
+
+.path-report-mygrades table.grades tr {
+	text-align: center;
+	padding-left:10px;
+}
+.path-report-mygrades table.grades td:first-child {
+	text-align: center;
+	padding-left:5px;
+	border-left: 0;
+}
+.path-report-mygrades table.grades td, .path-report-mygrades table.dataTable tr.odd {
+	padding:5px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	min-width: 80px;
+	background: #fafafa !important;
+}
+.path-report-mygrades table.grades tr.even td, .path-report-mygrades table.dataTable tr.even {
+	background: #f6f6f6 !important;
+}
+.path-report-mygrades table.grades tr:last-child td {
+	border-bottom:0;
+}
+.path-report-mygrades table.grades tr:hover td {
+	background: #f2f2f2 !important;
+}

@@ -1,0 +1,10 @@
+{
+    "name": "moodle-format_folderview-sectiontoggle",
+    "builds": {
+        "moodle-format_folderview-sectiontoggle": {
+            "jsfiles": [
+                "sectiontoggle.js"
+            ]
+        }
+    }
+}

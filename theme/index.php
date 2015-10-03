@@ -40,6 +40,7 @@ if (!empty($device)) {
     }
 }
 
+
 unset($SESSION->theme);
 
 if ($reset and confirm_sesskey()) {

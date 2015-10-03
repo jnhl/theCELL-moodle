@@ -73,7 +73,7 @@ $CFG->dboptions = array(
 // If you need both intranet and Internet access please read
 // http://docs.moodle.org/en/masquerading
 
-$CFG->wwwroot   = 'http://localhost:8888';
+$CFG->wwwroot   = 'http://192.168.0.14:8888';
 
 
 //=========================================================================

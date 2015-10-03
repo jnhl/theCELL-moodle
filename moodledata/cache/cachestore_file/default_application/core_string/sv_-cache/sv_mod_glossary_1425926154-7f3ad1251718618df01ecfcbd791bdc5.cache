@@ -1,0 +1,157 @@
+a:248:{s:10:"addcomment";s:22:"Lägg till kommentarer";s:8:"addentry";s:17:"Lägg till bidrag";s:13:"addingcomment";s:23:"Lägg till en kommentar";s:5:"alias";s:9:"Nyckelord";s:7:"aliases";s:9:"Synonymer";s:12:"aliases_help";s:541:"<p>Varje bidrag kan ha vara kopplat till en lista med synomymer (eller alias).</p>
+
+<p><b>Skriv in varje synonym (alias) p&aring; en ny rad</b> (inte separerad med komman).</p>
+
+<p>De ord som anv&auml;nds synonymt (alias) kan anv&auml;ndas som alternativa s&auml;tt att referera till
+bidraget.
+   Till exempel, om Du anv&auml;nder filtret f&ouml;r automatisk l&auml;nkning av bidrag s&aring; kommer synonymerna att anv&auml;ndas (liksom bidragets egentliga ledord) n&auml;r det g&ouml;rs ett val att ord ska l&auml;nka till detta bidrag.</p>";s:13:"allcategories";s:15:"Alla kategorier";s:10:"allentries";s:4:"ALLA";s:13:"allowcomments";s:31:"Tillåt kommentarer till bidrag";s:18:"allowcomments_help";s:281:"<p>Du kan ange om det ska vara till&aring;tet eller inte att kommentera
+bidrag till ord- och begreppslistan.</p>
+<p>Du kan välja om den egenskapen ska vara aktiverad eller inte.</p>
+<p>Distanslärare kan alltid lägga till kommentarer till bidrag till ord- och begreppslistor.</p>";s:22:"allowduplicatedentries";s:39:"Det är tillåtet med dubblerade bidrag";s:27:"allowduplicatedentries_help";s:143:"<p>Du kan ange om det ska vara till&aring;tet eller inte att
+l&auml;gga till dubletter av bidrag till den aktuella
+ord- och begreppslistan.</p>";s:14:"allowprintview";s:27:"Tillåt visning av utskrift";s:19:"allowprintview_help";s:333:"<p>Studenter/elever/deltagare/l&auml;rande kan f&aring; till&aring;telse att
+anv&auml;nda f&ouml;rhandsgranskning f&ouml;r utskrift av ord- och begreppslista</p>
+<p>Du kan v&auml;lja om Du vill aktivera eller avaktivera detta alternativ</p>
+<p>Distansl&auml;rare kan alltid anv&auml;nda f&ouml;rhandsgranskning f&ouml;r utskrift.</p>";s:17:"andmorenewentries";s:32:"och ytterligare {$a} nya bidrag.";s:6:"answer";s:4:"Svar";s:7:"approve";s:8:"Godkänn";s:21:"approvaldisplayformat";s:23:"Approval display format";s:26:"approvaldisplayformat_help";s:76:"When approving glossary items you may wish to use a different display format";s:14:"areaattachment";s:7:"Bilagor";s:9:"areaentry";s:12:"Definitioner";s:16:"areyousuredelete";s:56:"Är Du säker på att Du vill ta bort det här bidraget?";s:23:"areyousuredeletecomment";s:60:"Är Du säker på att Du vill ta bort den här  kommentaren?";s:16:"areyousureexport";s:62:"Är Du säker på att Du vill exportera det här bidraget till";s:9:"ascending";s:10:"(stigande)";s:10:"attachment";s:11:"Bifogad fil";s:15:"attachment_help";s:885:"<p>Som alternativ kan Du bifoga EN fil fr&aring;n Din dator
+till varje enskilt bidrag i en ord- och begreppslista.
+Denna fil laddas upp till servern och lagras tillsammans
+med Ditt bidrag</p>
+<p>Detta &auml;r anv&auml;ndbart n&auml;r Du vill visa en bild eller ett Word-dokument t.ex.</p>
+<p>Denna fil kan vara i valfritt format men rekommendationen &auml;r &auml;nd&aring;
+att filen har ett namn med ett filtill&auml;gg p&aring; 3 tecken enligt standarden
+f&ouml;r Internet som t.ex. .doc, .jpg osv.
+Detta underl&auml;ttar f&ouml;r dem som vill ladda ner och se Dina bilagor i sina
+webbl&auml;sare.</p>
+<p>Om Du redigerar om ett bidrag och bifogar en ny fil s&aring; kommer de tidigare
+bilagorna till bidraget att ers&auml;ttas med de nya.</p>
+<p>Om Du redigerar om ett bidrag med en bilaga och l&auml;mnar detta utrymme
+tomt s&aring; kommer den ursprungliga bilagan att bli kvar.</p>";s:6:"author";s:11:"författare";s:10:"authorview";s:20:"Sök på författare";s:4:"back";s:8:"Tillbaka";s:17:"cachedef_concepts";s:15:"Concept linking";s:13:"cantinsertcat";s:39:"Det går inte att lägga in en kategori";s:13:"cantinsertrec";s:47:"Det går inte att lägga in en post i databasen";s:13:"cantinsertrel";s:77:"Det går inte att lägga in ett bidrag till kategorin som bygger på relation";s:13:"casesensitive";s:69:"Det här bidraget gör <br />gör skillnad på stor och liten bokstav";s:18:"casesensitive_help";s:383:"<p>Den h&auml;r inst&auml;llningen anger om ett bidrag ska vara s&ouml;kbart
+med exakt samma storlek p&aring; bokst&auml;verna som det har f&ouml;r att
+det ska l&auml;nkas automatiskt.</p>
+<p>L&auml;gg m&auml;rke till att detta alternativ inte begr&auml;nsar det faktum
+att ett begrepp kan vara inb&auml;ddat i ett annat. Anv&auml;nd alternativet
+'Matcha hela ord' ist&auml;llet.</p>";s:3:"cat";s:8:"kategori";s:10:"categories";s:10:"Kategorier";s:8:"category";s:8:"Kategori";s:15:"categorydeleted";s:18:"Borttagen kategori";s:12:"categoryview";s:14:"Efter kategori";s:16:"cnfallowcomments";s:92:"Ange huruvida en ord- och begreppslista som standardval ska acceptera kommentarer på bidrag";s:18:"cnfallowdupentries";s:98:"Ange huruvida en ord- och begreppslista som standardval ska tillåta att man bidrar med dubbletter";s:17:"cnfapprovalstatus";s:104:"Ange huruvida ett bidrag av studenter/elever/deltagare/lärande som standardval ska accepteras eller ej.";s:16:"cnfcasesensitive";s:87:"Ange huruvida ett bidrag som standardval ska vara skiftlägeskänsligt när det länkas";s:14:"cnfdefaulthook";s:83:"Välj visning av standardurvalet när ord- och begreppslistan visas första gången";s:14:"cnfdefaultmode";s:81:"Välj visning av standardramen när ord- och begreppslistan visas första gången";s:12:"cnffullmatch";s:100:"Ange huruvida ett bidrag som standardval ska matcha stor/liten bokstav i måltexten när det länkas";s:12:"cnflinkentry";s:64:"Ange huruvida ett bidrag som standardval ska länkas automatiskt";s:17:"cnflinkglossaries";s:79:"Ange huruvida en ord- och begreppslista som standardval ska länkas automatiskt";s:14:"cnfrelatedview";s:57:"Välj visningsformat för automatisk länkning och bidrag";s:12:"cnfshowgroup";s:46:"Ange om grupp'brytningen' ska visas eller inte";s:10:"cnfsortkey";s:38:"Ange sorteringsnyckeln som standardval";s:12:"cnfsortorder";s:40:"Ange sorteringsordningen som standardval";s:17:"cnfstudentcanpost";s:100:"Ange huruvida studenterna/eleverna/deltagarna/de lärande som standardval ska kunna lägga in bidrag";s:7:"comment";s:9:"Kommentar";s:14:"commentdeleted";s:27:"Kommentaren har tagits bort";s:8:"comments";s:11:"Kommentarer";s:10:"commentson";s:22:"Kommentarer aktiverade";s:14:"commentupdated";s:27:"Kommentaren har uppdaterats";s:17:"completionentries";s:57:"Studenter/elever/deltagare/lärande måste lämna bidrag:";s:22:"completionentriesgroup";s:25:"Gör bidrag obligatoriska";s:7:"concept";s:7:"Begrepp";s:8:"concepts";s:7:"Begrepp";s:20:"configenablerssfeeds";s:206:"Den här omkopplaren kommer att aktivera RSS-inmatning för alla ord- och begreppslistor. Du  måste fortfarande aktivera inmatningarna manuellt i inställningarna för varje enskild ord- och begreppslista.";s:7:"current";s:30:"För närvarande sorterad {$a}";s:15:"currentglossary";s:30:"Aktuell ord- och begreppslista";s:4:"date";s:5:"datum";s:8:"dateview";s:21:"Bläddra enligt datum";s:15:"defaultapproval";s:29:"Standardval för godkännande";s:20:"defaultapproval_help";s:206:"<p>Du kan ange om bidrag fr&aring;n studenter/elever/deltagare/l&auml;rande
+ska vara automatiskt tillg&auml;ngliga f&ouml;r alla eller om bidragen f&ouml;rst ska
+godk&auml;nnas av (distans)l&auml;raren.</p>";s:11:"defaulthook";s:15:"Förvald 'krok'";s:11:"defaultmode";s:14:"Förvalt läge";s:14:"defaultsortkey";s:30:"Förvald nyckel för sortering";s:16:"defaultsortorder";s:31:"Förvald ordning för sortering";s:10:"definition";s:10:"Definition";s:11:"definitions";s:12:"Definitioner";s:11:"deleteentry";s:14:"Ta bort bidrag";s:17:"deletenotenrolled";s:61:"Ta bort bidrag gjorda av användare som inte är registrerade";s:15:"deletingcomment";s:18:"Tar bort kommentar";s:25:"deletingnoneemptycategory";s:129:"Om Du tar bort den här kaegorin så bidragen i den inte att tas bort - istället kommer de att markeras som inte-kategoriserade.";s:10:"descending";s:10:"(fallande)";s:11:"destination";s:28:"Mål för importerade bidrag";s:16:"destination_help";s:482:"<p>Du kan ange vart Du vill importera ett bidrag:</p>
+<ul>
+<li><strong>Den aktuella ord- och begreppslistan:</strong> Detta kommer att l&auml;gga till de importerade bidragen till
+den f&ouml;r tillf&auml;llet &ouml;ppna ord- och begreppslistan.</li>
+<li><strong>Ny ord- och begreppslista:</strong> Detta kommer att skapa en ord- och begreppslista
+som baseras p&aring; den information som som finns i den markerade importfilen och de nya bidragen kommer att infogas i den.</li>
+</ul>";s:10:"disapprove";s:13:"Undo approval";s:13:"displayformat";s:19:"Format för visning";s:18:"displayformat_help";s:1039:"<p>Systemet har tre inbyggda format f&ouml;r att visa bidrag.
+Du kan skapa Ditt eget format om Du vill.</p>
+<p>Standardinst&auml;llningen inneb&auml;r en ganska enkel
+form av presentation. Det ser ut som en vanlig ordlista (ordboksartikel).</p>
+<p>Det andra visningsformatet visar bidraget i ett forumliknande format,
+utan data om f&ouml;rfattaren.</p>
+<p>Och det tredje visar ocks&aring; bidraget i i ett forumliknande format,
+men med data om f&ouml;rfattaren.</p>
+<hr />
+<p>Om Du vill skapa Ditt eget format s&aring; ska Du skapa en .php-fil
+och ge den ett nummer som namn. Titta efter i mod/glossary/format f&ouml;r att
+f&aring; veta vilket det n&auml;sta numret b&ouml;r vara.</p>
+<p>Skapa sedan en funktion som Du kallar
+<b>glossary_print_entry_by_format($course, $cm, $glossary,
+ $entry)</b> och fyll p&aring; med all Din kreativitet.</p>
+<p>Det sista steget &auml;r att l&auml;gga in ett bidrag till varje spr&aring;kpaket
+som Du anv&auml;nder. Det kallar Du <b>displayformat[number]</b>,
+och ger det en meningsfull beskrivning.</p>";s:23:"displayformatcontinuous";s:33:"Fortlöpande men utan författare";s:20:"displayformatdefault";s:33:"Default to same as display format";s:23:"displayformatdictionary";s:17:"Enkel ordboksstil";s:25:"displayformatencyclopedia";s:11:"Encyklopedi";s:22:"displayformatentrylist";s:18:"Lista över bidrag";s:16:"displayformatfaq";s:3:"FAQ";s:27:"displayformatfullwithauthor";s:24:"Komplett med författare";s:30:"displayformatfullwithoutauthor";s:25:"Komplett utan författare";s:14:"displayformats";s:19:"Format för visning";s:19:"displayformatssetup";s:29:"Visa hur formaten har skapats";s:17:"duplicatecategory";s:18:"Duplicate category";s:14:"duplicateentry";s:16:"Dubblerat bidrag";s:10:"editalways";s:15:"Redigera alltid";s:15:"editalways_help";s:336:"<p>Det h&auml;r alternativet l&aring;ter Dig avg&ouml;ra om studenterna/eleverna/deltagarna/de l&auml;rande
+ska kunna redigera sina bidrag n&auml;r som helst.</p>
+<br />Du kan v&auml;lja:
+<ul>
+<li><b>Ja:</b> Bidrag g&aring;r alltid att redigera.</li>
+<li><b>Nej:</b> Bidrag g&aring;r bara att redigera inom den angivna tiden.</li>
+</ul>";s:14:"editcategories";s:19:"Redigera kategorier";s:9:"editentry";s:15:"Redigera bidrag";s:14:"editingcomment";s:19:"Redigerar kommentar";s:9:"entbypage";s:22:"Bidrag visade per sida";s:7:"entries";s:6:"bidrag";s:22:"entrieswithoutcategory";s:20:"Bidrag utan kategori";s:5:"entry";s:6:"bidrag";s:17:"entryalreadyexist";s:20:"Bidraget finns redan";s:13:"entryapproved";s:31:"Det här bidraget har godkänts";s:12:"entrydeleted";s:22:"Bidraget är borttaget";s:13:"entryexported";s:39:"Bidraget har framgångsrikt exporterats";s:13:"entryishidden";s:32:"(det här bidraget är f n dolt)";s:25:"entryleveldefaultsettings";s:51:"Standardval för inställningar på ingångsnivån ";s:10:"entrysaved";s:29:"Det här bidraget har sparats";s:12:"entryupdated";s:33:"Det här bidraget har uppdaterats";s:16:"entryusedynalink";s:53:"Det här bidraget bör<br /> vara automatiskt länkat";s:21:"entryusedynalink_help";s:635:"<p>Genom att aktivera det h&auml;r alternativet s&aring; kommer bidraget automatiskt
+att l&auml;nkas n&auml;rhelst begrepp, ord och fraser dyker n&aring;gon annanstans i samma kurs.
+Detta g&auml;ller f&ouml;r inl&auml;gg i forum, interna resurser, veckovisa sammanfattningar osv. </p>
+<p>Om Du inte vill att en viss text ska l&auml;nkas (i ett inl&auml;gg i ett forum t ex)
+d&aring; b&ouml;r Du l&auml;gga till  &lt;nolink&gt; och &lt;/nolink&gt; taggar runt texten.</p>
+<p>F&ouml;r att Du ska kunna aktivera detta alternativ s&aring; m&aring;ste automatisk l&auml;nkning vara aktiverad p&aring; niv&aring;n ord- och begreppslista.</p>";s:19:"errcannoteditothers";s:44:"Du kan inte redigera andra personers bidrag.";s:23:"errconceptalreadyexists";s:111:"Det här begreppet finns redan med. Det är inte tillåtet med dubbleringar i den här ord- och begreppslistan.";s:17:"errdeltimeexpired";s:49:"Du kan inte ta bort det här. Tiden har gått ut!";s:18:"erredittimeexpired";s:55:"Tiden för att redigera det här bidraget har gått ut.";s:15:"errorparsingxml";s:93:"Det uppstod fel när filen skulle parsas. Säkerställ att det är en giltig syntax för XML.";s:20:"eventcategorycreated";s:25:"Category has been created";s:20:"eventcategorydeleted";s:25:"Category has been deleted";s:20:"eventcategoryupdated";s:25:"Category has been updated";s:18:"evententryapproved";s:23:"Entry has been approved";s:17:"evententrycreated";s:22:"Entry has been created";s:17:"evententrydeleted";s:22:"Entry has been deleted";s:21:"evententrydisapproved";s:26:"Entry has been disapproved";s:16:"evententryviewed";s:21:"Entry has been viewed";s:17:"evententryupdated";s:22:"Entry has been updated";s:15:"explainaddentry";s:126:"Lägg till ett nytt bidrag till den aktuella ord- och begreppslistan.<br />'Begrepp' och 'definition' är obligatoriska fält.";s:10:"explainall";s:51:"<b>ALLA</b> kommer att visa alla bidrag på en sida";s:15:"explainalphabet";s:37:"Välj den sida Du vill söka efter<p>";s:13:"explainexport";s:158:"En fil har skapats.<br />Ladda ned den och spara den på ett säkert ställe. Du kan importera den när helst Du vill, i den här kursen eller i någon annan.";s:13:"explainimport";s:137:"Du måste ange vilken fil som ska importeras och villkoren för processen.<p>Skicka in Din förfrågan och titta på resultaten igen.</p>";s:14:"explainspecial";s:49:"Visa alla begrepp som inte börjar med en bokstav";s:13:"exportedentry";s:17:"Exporterat bidrag";s:13:"exportentries";s:16:"Exportera bidrag";s:18:"exportentriestoxml";s:34:"Exportera bidragen till en XML-fil";s:10:"exportfile";s:25:"Exportera bidrag till fil";s:14:"exportglossary";s:32:"Exportera ord- och begreppslista";s:20:"exporttomainglossary";s:71:"Exportera till den övergripande (förklarande) ord- och begreppslistan";s:12:"filetoimport";s:17:"Fil att importera";s:17:"filetoimport_help";s:99:"<p>Markera den XML-fil p&aring; Din dator som inneh&aring;ller de bidrag som Du vill importera.</p>";s:10:"fillfields";s:49:"'Begrepp' och definition' är obligatoriska fält";s:10:"filtername";s:41:"Länka ord- och begreppslista automatiskt";s:9:"fullmatch";s:73:"Matcha hela ord bara<br /><small>när de är automatiskt länkade</small>";s:14:"fullmatch_help";s:442:"<p>Om Du anger att ett bidrag kan l&auml;nkas automatiskt
+fr&aring;n andra resurser, s&aring; kommer bara de ord som
+matchar detta bidrag fullst&auml;ndigt att l&auml;nkas.
+Om Du st&auml;ller in det h&auml;r alternativet allts&aring;.</p>
+<p>L&auml;gg  m&auml;rke till att det h&auml;r alternativet inte
+kr&auml;ver att bokst&auml;verna har samma storlek. Anv&auml;nd
+ist&auml;llet alternativet 'Skiftl&auml;gesk&auml;nslig' f&ouml;r det.</p>";s:20:"glossary:addinstance";s:18:"Add a new glossary";s:16:"glossary:approve";s:30:"Godkänn icke-godkända bidrag";s:16:"glossary:comment";s:17:"Skapa kommentarer";s:15:"glossary:export";s:16:"Exportera bidrag";s:20:"glossary:exportentry";s:28:"Exportera ett enskilt bidrag";s:23:"glossary:exportownentry";s:33:"Exportera ett enskilt eget bidrag";s:15:"glossary:import";s:16:"Importera bidrag";s:28:"glossaryleveldefaultsettings";s:54:"Standardval för inställningar på den globala nivån";s:25:"glossary:managecategories";s:23:"Administrera kategorier";s:23:"glossary:managecomments";s:24:"Administrera kommentarer";s:22:"glossary:manageentries";s:19:"Administrera bidrag";s:13:"glossary:rate";s:23:"Bedöm/värdera inlägg";s:13:"glossary:view";s:26:"Visa ord-och begreppslista";s:12:"glossarytype";s:29:"Typ av ord- och begreppslista";s:17:"glossarytype_help";s:641:"<p>Systemet till&aring;ter att bidrag exporteras till den &ouml;vergripande
+ord- och begreppslistan f&ouml;r kursen
+fr&aring;n vilken sekund&auml;r ord- och begreppslista som helst.</p>
+<p>F&ouml;r att g&ouml;ra detta b&ouml;r Du ange vilken ord- och begreppslista det &auml;r
+som &auml;r den &ouml;vergripande.</p>
+<p>OBS! Du kan bara ha en &ouml;vergripande ord- och begreppslista per kurs.</p>
+
+<p>Före Moodle 1.7, kunde bara (distans)lärare redigera den &ouml;vergripande ord- och begreppslistan f&ouml;r kursen. I Moodle
+1.7 och senare, kan du påverka detta med hjälp av att tilldela användare roller med utökade
+rättigheter.</p>";s:23:"glossary:viewallratings";s:54:"Visa alla betyg/omdömen som har avgivits av individer";s:22:"glossary:viewanyrating";s:46:"Visa alla betyg/omdömen som någon har fått.";s:19:"glossary:viewrating";s:62:"Visa de sammanlagda bedömningar/värderingar som Du har fått";s:14:"glossary:write";s:16:"Skapa nya bidrag";s:11:"guestnoedit";s:64:"Gäster har inte tillstånd att redigera ord- coh begreppslistor";s:8:"changeto";s:16:"ändra till {$a}";s:16:"importcategories";s:20:"Importera kategorier";s:18:"importedcategories";s:22:"Importerade kategorier";s:15:"importedentries";s:18:"Importerade bidrag";s:13:"importentries";s:16:"Importera bidrag";s:20:"importentriesfromxml";s:30:"Importera bidrag från XML-fil";s:18:"includegroupbreaks";s:22:"Ta med gruppbrytningar";s:8:"isglobal";s:46:"Är det här en global ord- och begreppslista?";s:13:"isglobal_help";s:575:"<p>Systemet med ord- och begreppslistor l&aring;ter Dig definiera
+begrepp som skulle kunna vara tillg&auml;ngliga p&aring; hela
+webbsajten. De beskrivs som globala.</p>
+<p>Du beh&ouml;ver allts&aring; ange vilken ord- och begreppslista som ska
+vara global.</p>
+<p>Du kan ha s&aring; m&aring;nga globala ord- och begreppslistor Du vill, och
+de kan h&ouml;ra till vilken kurs som helst. Alla &ouml;vriga regler &auml;r
+giltiga &auml;ven f&ouml;r den h&auml;r typen.</p>
+<p>L&auml;gg m&auml;rke till att endast administrat&ouml;rer kan
+skapa globala ord- och begreppslistor.</p>";s:6:"letter";s:7:"bokstav";s:12:"linkcategory";s:37:"Länka den här kategorin automatiskt";s:17:"linkcategory_help";s:201:"<p>Du kan ange ifall Du vill att kategorierna ska vara
+automatiskt l&auml;nkade eller inte.</p>
+<p>OBS! L&auml;nkning av kategorier baseras p&aring; skiftl&auml;gesk&auml;nslig, komplett matchning.</p>";s:7:"linking";s:20:"Automatisk länkning";s:12:"mainglossary";s:56:"Den övergripande (förklarande) ord- och begreppslistan";s:16:"maxtimehaspassed";s:75:"Maxtiden för att redigera den här kommentaren har tyvärr gått ut ({$a})";s:10:"modulename";s:22:"Ord- och begreppslista";s:15:"modulename_help";s:217:"Modulen ord- och begreppslista gör det möjligt för deltagare att skapa och underhålla en lista över definitioner. Bidragen går att länka automatiskt varhelst de listade orden och fraserna uppträder i kursen.  ";s:15:"modulename_link";s:17:"mod/glossary/view";s:16:"modulenameplural";s:23:"Ord- och begreppslistor";s:10:"newentries";s:38:"Nya bidrag till ord- och begreppslista";s:11:"newglossary";s:25:"Ny ord- och begreppslista";s:18:"newglossarycreated";s:40:"En ny ord- och begreppslista har skapats";s:18:"newglossaryentries";s:39:"Nya bidrag till ord- och begreppslistan";s:9:"nocomment";s:33:"Kunde inte hitta någon kommentar";s:10:"nocomments";s:65:"(Det gick inte att hitta någon kommentar till det här bidraget)";s:14:"noconceptfound";s:55:"Det gick inte att hitta något begrepp eller definition";s:9:"noentries";s:40:"Hittade inga bidrag i den här sektionen";s:7:"noentry";s:20:"Hittade inget bidrag";s:24:"nopermissiontodelcomment";s:50:"Du kan inte ta bort andra användares kommentarer!";s:27:"nopermissiontodelinglossary";s:67:"Du kan inte lämna kommentarer i den här ord- och bergreppslistan!";s:24:"nopermissiontoviewresult";s:45:"Du kan bara söka resultat i Dina egna bidrag";s:14:"notcategorised";s:23:"Inte indelad i kategori";s:11:"notapproved";s:67:"Det här bidraget till ord/begreppslistan har ännu inte godkänts.";s:15:"numberofentries";s:12:"Antal bidrag";s:9:"onebyline";s:12:"(en per rad)";s:19:"page-mod-glossary-x";s:24:"Any glossary module page";s:22:"page-mod-glossary-edit";s:28:"Glossary add/edit entry page";s:22:"page-mod-glossary-view";s:23:"View glossary edit page";s:20:"pluginadministration";s:40:"Administration av ord- och begreppslista";s:10:"pluginname";s:22:"Ord- och begreppslista";s:11:"popupformat";s:12:"Popup-format";s:5:"print";s:5:"Print";s:15:"printerfriendly";s:24:"Utskriftsvänlig version";s:19:"printviewnotallowed";s:39:"Visning av utskrift är inte tillåten.";s:8:"question";s:6:"Fråga";s:15:"rejectedentries";s:24:"Bidrag som inte antagits";s:12:"rejectionrpt";s:33:"Rapport över icke antagna bidrag";s:15:"resetglossaries";s:20:"Ta bort bidrag från";s:18:"resetglossariesall";s:49:"Ta bort bidrag från alla ord- och begreppslistor";s:11:"rssarticles";s:27:"Antal aktuella RSS-artiklar";s:16:"rssarticles_help";s:313:"<p>Det h&auml;r alternativet g&ouml;r det m&ouml;jligt f&ouml;r Dig att markera det antal
+artiklar som Du vill ta med i RSS-matningen.</p>
+<p>Ett antal mellan 5 och 20 b&ouml;r vara lagom f&ouml;r de flesta ord- och begreppslistor.
+ &Ouml;ka detta antal om ord- och begreppslistan anv&auml;nds mycket flitigt.</p>";s:15:"rsssubscriberss";s:41:"Visa RSS-inmatningen för  '{$a}' koncept";s:7:"rsstype";s:36:"RSS-flöde för den här aktiviteten";s:12:"rsstype_help";s:516:"<p>Det h&auml;r alternativet l&aring;ter Dig aktivera RSS-matningar till denna ord- och begreppslista.</p>
+<p>Du kan v&auml;lja mellan tv&aring; sorters matningar:</p>
+<ul>
+<li><b>Med f&ouml;rfattare:</b>Om Du anv&auml;nder detta, s&aring; kommer de genererade matningarna att ta med
+namnet p&aring; f&ouml;rfattaren i varje artikel.</li>
+<li><b>Utan f&ouml;rfattare:</b>Om Du anv&auml;nder detta, s&aring; kommer de genererade matningarna INTE att ta med
+namnet p&aring; f&ouml;rfattaren i varje artikel.</li>
+</ul>";s:18:"searchindefinition";s:32:"Sök i begrepp OCH definitioner?";s:17:"secondaryglossary";s:32:"sekundär ord- och begreppslista";s:7:"showall";s:19:"Visa länken 'ALLA'";s:12:"showall_help";s:591:"<p>Du kan standardisera de s&auml;tt man kan anv&auml;nda
+f&ouml;r att s&ouml;ka sig igenom en ord- och begreppslista.
+Att s&ouml;ka p&aring; kategorier och datum g&aring;r alltid.
+Du kan dock ange ytterligare tre alternativ:</p>
+<p><b>VISA SPECIAL</b>
+<br />
+Aktivera eller avaktivera s&ouml;kning med hj&auml;lp av
+specialtecken som @, #, etc.</p>
+<p><b>VISA ALFABETET</b>
+<br />
+Aktivera eller avaktivera s&ouml;kning med hj&auml;lp av bokst&auml;ver.</p>
+<p><b>VISA ALLA</b>
+<br />
+Aktivera eller avaktivera s&ouml;kning med hj&auml;lp av att
+visa alla bidrag p&aring; en g&aring;ng.</p>";s:12:"showalphabet";s:14:"Visa alfabetet";s:17:"showalphabet_help";s:591:"<p>Du kan standardisera de s&auml;tt man kan anv&auml;nda
+f&ouml;r att s&ouml;ka sig igenom en ord- och begreppslista.
+Att s&ouml;ka p&aring; kategorier och datum g&aring;r alltid.
+Du kan dock ange ytterligare tre alternativ:</p>
+<p><b>VISA SPECIAL</b>
+<br />
+Aktivera eller avaktivera s&ouml;kning med hj&auml;lp av
+specialtecken som @, #, etc.</p>
+<p><b>VISA ALFABETET</b>
+<br />
+Aktivera eller avaktivera s&ouml;kning med hj&auml;lp av bokst&auml;ver.</p>
+<p><b>VISA ALLA</b>
+<br />
+Aktivera eller avaktivera s&ouml;kning med hj&auml;lp av att
+visa alla bidrag p&aring; en g&aring;ng.</p>";s:11:"showspecial";s:22:"Visa länken 'Special'";s:16:"showspecial_help";s:591:"<p>Du kan standardisera de s&auml;tt man kan anv&auml;nda
+f&ouml;r att s&ouml;ka sig igenom en ord- och begreppslista.
+Att s&ouml;ka p&aring; kategorier och datum g&aring;r alltid.
+Du kan dock ange ytterligare tre alternativ:</p>
+<p><b>VISA SPECIAL</b>
+<br />
+Aktivera eller avaktivera s&ouml;kning med hj&auml;lp av
+specialtecken som @, #, etc.</p>
+<p><b>VISA ALFABETET</b>
+<br />
+Aktivera eller avaktivera s&ouml;kning med hj&auml;lp av bokst&auml;ver.</p>
+<p><b>VISA ALLA</b>
+<br />
+Aktivera eller avaktivera s&ouml;kning med hj&auml;lp av att
+visa alla bidrag p&aring; en g&aring;ng.</p>";s:6:"sortby";s:13:"Sortera efter";s:14:"sortbycreation";s:27:"Enligt datum för tillkomst";s:16:"sortbylastupdate";s:28:"Enligt senaste uppdateringen";s:17:"sortchronogically";s:20:"Sortera kronologiskt";s:7:"special";s:7:"Special";s:12:"standardview";s:10:"Standardvy";s:14:"studentcanpost";s:58:"Studenter/elever/deltagare/lärande kan lägga till bidrag";s:12:"totalentries";s:19:"Totalt antal bidrag";s:11:"usedynalink";s:25:"Länka bidrag automatiskt";s:16:"usedynalink_help";s:679:"<p align="center"><b>
+Att automatiskt l&auml;nka ord- och begreppslistor till andra moduler </b></p>
+<p>Om Du anger att en ord- och begreppslista ska l&auml;nkas automatiskt s&aring;
+kommer de ber&ouml;rda bidragen automatiskt att l&auml;nkas n&auml;rhelst de
+dyker upp i andra resurser (forum, kommentarer osv)</p>
+<p>Om Du inte vill att ett visst bidrag ska l&auml;nkas
+s&aring; b&ouml;r Du b&auml;dda in det mellan taggarna
+&lt;nolink> och &lt;/nolink> i HTML-(k&auml;ll)koden.</p>
+<p>Om det &auml;r en kategori som har hittats s&aring; kommer den ocks&aring;
+att l&auml;nkas. L&auml;gg m&auml;rke till att l&auml;nkning av kategorier
+&auml;r skiftl&auml;gesk&auml;nsligt.</p>";s:15:"waitingapproval";s:30:"Väntar på att bli accepterad";s:20:"warningstudentcapost";s:79:"(Gäller bara om det inte handlar om den övergripande ord- och  begreppslistan";s:10:"withauthor";s:23:"Begrepp med författare";s:13:"withoutauthor";s:24:"Begrepp utan författare";s:9:"writtenby";s:2:"Av";s:18:"youarenottheauthor";s:95:"Det är inte Du som har författat den här kommentaren och därför får Du inte redigera den.";}

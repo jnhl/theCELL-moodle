@@ -131,8 +131,12 @@ $cache = array (
       'calculated' => '/Users/Joakim/Documents/CELL/moodle/question/type/calculated',
       'calculatedmulti' => '/Users/Joakim/Documents/CELL/moodle/question/type/calculatedmulti',
       'calculatedsimple' => '/Users/Joakim/Documents/CELL/moodle/question/type/calculatedsimple',
+      'ddimageortext' => '/Users/Joakim/Documents/CELL/moodle/question/type/ddimageortext',
+      'ddmarker' => '/Users/Joakim/Documents/CELL/moodle/question/type/ddmarker',
+      'ddwtos' => '/Users/Joakim/Documents/CELL/moodle/question/type/ddwtos',
       'description' => '/Users/Joakim/Documents/CELL/moodle/question/type/description',
       'essay' => '/Users/Joakim/Documents/CELL/moodle/question/type/essay',
+      'gapselect' => '/Users/Joakim/Documents/CELL/moodle/question/type/gapselect',
       'match' => '/Users/Joakim/Documents/CELL/moodle/question/type/match',
       'missingtype' => '/Users/Joakim/Documents/CELL/moodle/question/type/missingtype',
       'multianswer' => '/Users/Joakim/Documents/CELL/moodle/question/type/multianswer',
@@ -193,6 +197,8 @@ $cache = array (
     ),
     'enrol' => 
     array (
+      'apply' => '/Users/Joakim/Documents/CELL/moodle/enrol/apply',
+      'autoenrol' => '/Users/Joakim/Documents/CELL/moodle/enrol/autoenrol',
       'category' => '/Users/Joakim/Documents/CELL/moodle/enrol/category',
       'cohort' => '/Users/Joakim/Documents/CELL/moodle/enrol/cohort',
       'database' => '/Users/Joakim/Documents/CELL/moodle/enrol/database',
@@ -242,9 +248,12 @@ $cache = array (
       'online_users' => '/Users/Joakim/Documents/CELL/moodle/blocks/online_users',
       'participants' => '/Users/Joakim/Documents/CELL/moodle/blocks/participants',
       'private_files' => '/Users/Joakim/Documents/CELL/moodle/blocks/private_files',
+      'progress' => '/Users/Joakim/Documents/CELL/moodle/blocks/progress',
       'quiz_results' => '/Users/Joakim/Documents/CELL/moodle/blocks/quiz_results',
       'recent_activity' => '/Users/Joakim/Documents/CELL/moodle/blocks/recent_activity',
+      'repo_filemanager' => '/Users/Joakim/Documents/CELL/moodle/blocks/repo_filemanager',
       'rss_client' => '/Users/Joakim/Documents/CELL/moodle/blocks/rss_client',
+      'search' => '/Users/Joakim/Documents/CELL/moodle/blocks/search',
       'search_forums' => '/Users/Joakim/Documents/CELL/moodle/blocks/search_forums',
       'section_links' => '/Users/Joakim/Documents/CELL/moodle/blocks/section_links',
       'selfcompletion' => '/Users/Joakim/Documents/CELL/moodle/blocks/selfcompletion',
@@ -279,6 +288,8 @@ $cache = array (
     ),
     'format' => 
     array (
+      'folderview' => '/Users/Joakim/Documents/CELL/moodle/course/format/folderview',
+      'grid' => '/Users/Joakim/Documents/CELL/moodle/course/format/grid',
       'singleactivity' => '/Users/Joakim/Documents/CELL/moodle/course/format/singleactivity',
       'social' => '/Users/Joakim/Documents/CELL/moodle/course/format/social',
       'topics' => '/Users/Joakim/Documents/CELL/moodle/course/format/topics',
@@ -289,6 +300,7 @@ $cache = array (
       'checkbox' => '/Users/Joakim/Documents/CELL/moodle/user/profile/field/checkbox',
       'datetime' => '/Users/Joakim/Documents/CELL/moodle/user/profile/field/datetime',
       'menu' => '/Users/Joakim/Documents/CELL/moodle/user/profile/field/menu',
+      'multiselect' => '/Users/Joakim/Documents/CELL/moodle/user/profile/field/multiselect',
       'text' => '/Users/Joakim/Documents/CELL/moodle/user/profile/field/text',
       'textarea' => '/Users/Joakim/Documents/CELL/moodle/user/profile/field/textarea',
     ),
@@ -301,6 +313,7 @@ $cache = array (
       'eventlist' => '/Users/Joakim/Documents/CELL/moodle/report/eventlist',
       'log' => '/Users/Joakim/Documents/CELL/moodle/report/log',
       'loglive' => '/Users/Joakim/Documents/CELL/moodle/report/loglive',
+      'mygrades' => '/Users/Joakim/Documents/CELL/moodle/report/mygrades',
       'outline' => '/Users/Joakim/Documents/CELL/moodle/report/outline',
       'participation' => '/Users/Joakim/Documents/CELL/moodle/report/participation',
       'performance' => '/Users/Joakim/Documents/CELL/moodle/report/performance',
@@ -355,6 +368,7 @@ $cache = array (
       'alfresco' => '/Users/Joakim/Documents/CELL/moodle/repository/alfresco',
       'areafiles' => '/Users/Joakim/Documents/CELL/moodle/repository/areafiles',
       'boxnet' => '/Users/Joakim/Documents/CELL/moodle/repository/boxnet',
+      'coursefilearea' => '/Users/Joakim/Documents/CELL/moodle/repository/coursefilearea',
       'coursefiles' => '/Users/Joakim/Documents/CELL/moodle/repository/coursefiles',
       'dropbox' => '/Users/Joakim/Documents/CELL/moodle/repository/dropbox',
       'equella' => '/Users/Joakim/Documents/CELL/moodle/repository/equella',
@@ -421,6 +435,7 @@ $cache = array (
       'capability' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/capability',
       'customlang' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/customlang',
       'dbtransfer' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/dbtransfer',
+      'editrolesbycap' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/editrolesbycap',
       'generator' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/generator',
       'health' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/health',
       'innodb' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/innodb',
@@ -460,6 +475,8 @@ $cache = array (
       'bootstrapbase' => '/Users/Joakim/Documents/CELL/moodle/theme/bootstrapbase',
       'canvas' => '/Users/Joakim/Documents/CELL/moodle/theme/canvas',
       'clean' => '/Users/Joakim/Documents/CELL/moodle/theme/clean',
+      'essential' => '/Users/Joakim/Documents/CELL/moodle/theme/essential',
+      'evolved' => '/Users/Joakim/Documents/CELL/moodle/theme/evolved',
       'more' => '/Users/Joakim/Documents/CELL/moodle/theme/more',
     ),
     'assignsubmission' => 
@@ -610,6 +627,7 @@ $cache = array (
     ),
     'local' => 
     array (
+      'mr' => '/Users/Joakim/Documents/CELL/moodle/local/mr',
     ),
   ),
   'parents' => 
@@ -1717,7 +1735,11 @@ $cache = array (
         'calculated' => '/Users/Joakim/Documents/CELL/moodle/question/type/calculated/lib.php',
         'calculatedmulti' => '/Users/Joakim/Documents/CELL/moodle/question/type/calculatedmulti/lib.php',
         'calculatedsimple' => '/Users/Joakim/Documents/CELL/moodle/question/type/calculatedsimple/lib.php',
+        'ddimageortext' => '/Users/Joakim/Documents/CELL/moodle/question/type/ddimageortext/lib.php',
+        'ddmarker' => '/Users/Joakim/Documents/CELL/moodle/question/type/ddmarker/lib.php',
+        'ddwtos' => '/Users/Joakim/Documents/CELL/moodle/question/type/ddwtos/lib.php',
         'essay' => '/Users/Joakim/Documents/CELL/moodle/question/type/essay/lib.php',
+        'gapselect' => '/Users/Joakim/Documents/CELL/moodle/question/type/gapselect/lib.php',
         'match' => '/Users/Joakim/Documents/CELL/moodle/question/type/match/lib.php',
         'multichoice' => '/Users/Joakim/Documents/CELL/moodle/question/type/multichoice/lib.php',
         'numerical' => '/Users/Joakim/Documents/CELL/moodle/question/type/numerical/lib.php',
@@ -1758,6 +1780,8 @@ $cache = array (
       ),
       'enrol' => 
       array (
+        'apply' => '/Users/Joakim/Documents/CELL/moodle/enrol/apply/lib.php',
+        'autoenrol' => '/Users/Joakim/Documents/CELL/moodle/enrol/autoenrol/lib.php',
         'category' => '/Users/Joakim/Documents/CELL/moodle/enrol/category/lib.php',
         'cohort' => '/Users/Joakim/Documents/CELL/moodle/enrol/cohort/lib.php',
         'database' => '/Users/Joakim/Documents/CELL/moodle/enrol/database/lib.php',
@@ -1778,6 +1802,7 @@ $cache = array (
       array (
         'comments' => '/Users/Joakim/Documents/CELL/moodle/blocks/comments/lib.php',
         'html' => '/Users/Joakim/Documents/CELL/moodle/blocks/html/lib.php',
+        'progress' => '/Users/Joakim/Documents/CELL/moodle/blocks/progress/lib.php',
       ),
       'filter' => 
       array (
@@ -1791,6 +1816,8 @@ $cache = array (
       ),
       'format' => 
       array (
+        'folderview' => '/Users/Joakim/Documents/CELL/moodle/course/format/folderview/lib.php',
+        'grid' => '/Users/Joakim/Documents/CELL/moodle/course/format/grid/lib.php',
         'singleactivity' => '/Users/Joakim/Documents/CELL/moodle/course/format/singleactivity/lib.php',
         'social' => '/Users/Joakim/Documents/CELL/moodle/course/format/social/lib.php',
         'topics' => '/Users/Joakim/Documents/CELL/moodle/course/format/topics/lib.php',
@@ -1804,6 +1831,7 @@ $cache = array (
         'completion' => '/Users/Joakim/Documents/CELL/moodle/report/completion/lib.php',
         'log' => '/Users/Joakim/Documents/CELL/moodle/report/log/lib.php',
         'loglive' => '/Users/Joakim/Documents/CELL/moodle/report/loglive/lib.php',
+        'mygrades' => '/Users/Joakim/Documents/CELL/moodle/report/mygrades/lib.php',
         'outline' => '/Users/Joakim/Documents/CELL/moodle/report/outline/lib.php',
         'participation' => '/Users/Joakim/Documents/CELL/moodle/report/participation/lib.php',
         'progress' => '/Users/Joakim/Documents/CELL/moodle/report/progress/lib.php',
@@ -1845,6 +1873,7 @@ $cache = array (
         'alfresco' => '/Users/Joakim/Documents/CELL/moodle/repository/alfresco/lib.php',
         'areafiles' => '/Users/Joakim/Documents/CELL/moodle/repository/areafiles/lib.php',
         'boxnet' => '/Users/Joakim/Documents/CELL/moodle/repository/boxnet/lib.php',
+        'coursefilearea' => '/Users/Joakim/Documents/CELL/moodle/repository/coursefilearea/lib.php',
         'coursefiles' => '/Users/Joakim/Documents/CELL/moodle/repository/coursefiles/lib.php',
         'dropbox' => '/Users/Joakim/Documents/CELL/moodle/repository/dropbox/lib.php',
         'equella' => '/Users/Joakim/Documents/CELL/moodle/repository/equella/lib.php',
@@ -1907,6 +1936,8 @@ $cache = array (
       'theme' => 
       array (
         'clean' => '/Users/Joakim/Documents/CELL/moodle/theme/clean/lib.php',
+        'essential' => '/Users/Joakim/Documents/CELL/moodle/theme/essential/lib.php',
+        'evolved' => '/Users/Joakim/Documents/CELL/moodle/theme/evolved/lib.php',
         'more' => '/Users/Joakim/Documents/CELL/moodle/theme/more/lib.php',
       ),
       'assignsubmission' => 
@@ -2013,6 +2044,7 @@ $cache = array (
       ),
       'qtype' => 
       array (
+        'ddmarker' => '/Users/Joakim/Documents/CELL/moodle/question/type/ddmarker/settings.php',
       ),
       'mod' => 
       array (
@@ -2043,6 +2075,8 @@ $cache = array (
       ),
       'enrol' => 
       array (
+        'apply' => '/Users/Joakim/Documents/CELL/moodle/enrol/apply/settings.php',
+        'autoenrol' => '/Users/Joakim/Documents/CELL/moodle/enrol/autoenrol/settings.php',
         'category' => '/Users/Joakim/Documents/CELL/moodle/enrol/category/settings.php',
         'cohort' => '/Users/Joakim/Documents/CELL/moodle/enrol/cohort/settings.php',
         'database' => '/Users/Joakim/Documents/CELL/moodle/enrol/database/settings.php',
@@ -2068,7 +2102,9 @@ $cache = array (
         'course_overview' => '/Users/Joakim/Documents/CELL/moodle/blocks/course_overview/settings.php',
         'html' => '/Users/Joakim/Documents/CELL/moodle/blocks/html/settings.php',
         'online_users' => '/Users/Joakim/Documents/CELL/moodle/blocks/online_users/settings.php',
+        'progress' => '/Users/Joakim/Documents/CELL/moodle/blocks/progress/settings.php',
         'rss_client' => '/Users/Joakim/Documents/CELL/moodle/blocks/rss_client/settings.php',
+        'search' => '/Users/Joakim/Documents/CELL/moodle/blocks/search/settings.php',
         'section_links' => '/Users/Joakim/Documents/CELL/moodle/blocks/section_links/settings.php',
         'tags' => '/Users/Joakim/Documents/CELL/moodle/blocks/tags/settings.php',
       ),
@@ -2088,6 +2124,7 @@ $cache = array (
       ),
       'format' => 
       array (
+        'grid' => '/Users/Joakim/Documents/CELL/moodle/course/format/grid/settings.php',
         'singleactivity' => '/Users/Joakim/Documents/CELL/moodle/course/format/singleactivity/settings.php',
       ),
       'profilefield' => 
@@ -2154,6 +2191,7 @@ $cache = array (
         'capability' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/capability/settings.php',
         'customlang' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/customlang/settings.php',
         'dbtransfer' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/dbtransfer/settings.php',
+        'editrolesbycap' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/editrolesbycap/settings.php',
         'generator' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/generator/settings.php',
         'health' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/health/settings.php',
         'innodb' => '/Users/Joakim/Documents/CELL/moodle/admin/tool/innodb/settings.php',
@@ -2186,6 +2224,8 @@ $cache = array (
       'theme' => 
       array (
         'clean' => '/Users/Joakim/Documents/CELL/moodle/theme/clean/settings.php',
+        'essential' => '/Users/Joakim/Documents/CELL/moodle/theme/essential/settings.php',
+        'evolved' => '/Users/Joakim/Documents/CELL/moodle/theme/evolved/settings.php',
         'more' => '/Users/Joakim/Documents/CELL/moodle/theme/more/settings.php',
       ),
       'assignsubmission' => 
@@ -2257,6 +2297,7 @@ $cache = array (
       ),
       'local' => 
       array (
+        'mr' => '/Users/Joakim/Documents/CELL/moodle/local/mr/settings.php',
       ),
     ),
   ),
